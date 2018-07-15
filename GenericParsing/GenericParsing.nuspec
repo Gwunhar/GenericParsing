@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>GenericParser</id>
-    <version>1.1.5</version>
+    <version>1.1.6</version>
     <authors>Andrew Rissing</authors>
     <owners>Andrew Rissing</owners>
     <licenseUrl>https://www.codeproject.com/info/cpol10.aspx</licenseUrl>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>The GenericParser is a robust C# implementation for handling parsing of delimited and fixed width formats.</summary>
     <description>The GenericParser is a robust C# implementation of a parser for delimited and fixed width format files.  It provides a variety of features (ex. custom delimiters, text qualifiers, loading/saving configuration from XML, and many more), performant, and thoroughly tested.</description>
-    <releaseNotes>Initial release of nuget package.</releaseNotes>
-    <copyright>Copyright 2017</copyright>
+    <releaseNotes>This package will receive no further development and has been moved to GenericParsing.  The new package will be based on .NET Standard 2.0 and signed.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
     <tags>CSV TSV Parse Parsing Comma</tags>
+    <title>DEPRECATED: Package moved to GenericParsing</title>
   </metadata>
 	<files>
 		<file src="bin\Release\GenericParsing.*" target="lib\net20\" />
